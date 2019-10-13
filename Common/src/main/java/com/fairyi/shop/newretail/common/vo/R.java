@@ -7,6 +7,8 @@ public class R {
     private int code;
     private String msg;
     private Object data;
+    //仅仅练习使用
+    private String name;
 
     public static R setOK(String msg,Object obj){
         R r=new R();
